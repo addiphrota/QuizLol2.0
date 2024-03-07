@@ -19,7 +19,7 @@ public class SistemaQuiz {
         Scanner scanner = new Scanner(System.in);
 
         for(Perguntas pergunta : listaPerguntas) {
-            System.out,println(pergunta.getPergunta());
+            System.out.println(pergunta.getPergunta());
 
             if (pergunta instanceof PerguntasObjetivas){
                 PerguntasObjetivas perguntasObjetivas = (PerguntasObjetivas) pergunta;
